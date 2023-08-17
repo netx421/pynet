@@ -21,7 +21,7 @@ class WeldTecBrowser(QMainWindow):
 
         self.setWindowTitle("PY-NET")
         self.setGeometry(100, 100, 800, 600)
-        icon = QIcon("2.svg")  # Replace with your icon path
+        icon = QIcon("2.svg")
         self.setWindowIcon(icon)
 
 
@@ -71,7 +71,7 @@ class WeldTecBrowser(QMainWindow):
 
         self.setStyleSheet("background-color: black; color: yellow;")
 
-        # Open default tab
+
         self.add_new_tab(QUrl("https://searchtec.tech"))
 
     def navigate_back(self):
