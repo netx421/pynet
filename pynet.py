@@ -62,9 +62,9 @@ class WeldTecBrowser(QMainWindow):
         searchtec_bookmark.triggered.connect(lambda: self.add_new_tab(QUrl("https://searchtec.tech")))
         bookmark_bar.addAction(searchtec_bookmark)
         searchtec_bookmark = QAction(QIcon("1.svg"), "Tube", self)
-        searchtec_bookmark.triggered.connect(lambda: self.add_new_tab(QUrl("https://joinpeertube.org/en_US/browse-content")))
+        searchtec_bookmark.triggered.connect(lambda: self.add_new_tab(QUrl("https://www.youtube.com/")))
         bookmark_bar.addAction(searchtec_bookmark)
-        searchtec_bookmark = QAction(QIcon("3.svg"), "PoopSocial", self)
+        searchtec_bookmark = QAction(QIcon("3.svg"), "Social", self)
         searchtec_bookmark.triggered.connect(lambda: self.add_new_tab(QUrl("http://62.72.6.224/")))
         bookmark_bar.addAction(searchtec_bookmark)
 
